@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 def draw_vector(vector, color, label):
-    plt.arrow(0, 0, vector[0], vector[1], head_width=0.3, head_length=0.3, fc=color, ec=color)
+    plt.arrow(0, 0, vector[0], vector[1], head_width=0.2, head_length=0.2, fc=color, ec=color)
     plt.text(vector[0] + 0.5, vector[1] + 0.5, label)
 
 def draw_vectors(vectors_dict):
